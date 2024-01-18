@@ -186,7 +186,7 @@ pub enum LabelFormat {
 }
 
 /// Specifies density of labels on the Y axis between ymin and ymax.
-/// Default value is `YAxisTickFormat::None`.
+/// Default value is `TickDisplay::None`.
 pub enum TickDisplay {
     /// Tick labels are not displayed.
     None,
